@@ -721,3 +721,191 @@ text-align: center;
         height: 100%;
     }
 }
+
+@media (max-width:451px){
+    .titulo{
+        background-image: url(../assets/img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 346.4%;
+        background-position-x: center;
+        background-position-y: center;
+        margin: 0;
+        height: 44.2rem;
+    }
+    .titulo img{
+        padding: 0rem 0rem 0rem 0rem;
+        height: 22.5rem;
+        text-align: center;
+        margin: 10rem auto;
+    }
+    .tiempo{
+        background-color: #a4bb8f;
+        width: 100%;
+        height: 10.75rem;
+        color: #fffbf7;
+    }
+    .tiempo h2{
+        padding: 1.125rem 0rem 0rem 0rem;
+        font-size: 1.5rem;
+    }
+    .cartel>div{
+        font-size: 45px;
+    }
+    .cartel>div>h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .cartel {
+        height: 60px;
+        width: 60px;
+    }
+    .contenedor {
+        margin-top: 5%;
+    }
+    .fiesta-como-llegar img{
+        height: 10.9375rem;
+        padding: 1.5rem;
+    }
+    .nosotros h1{
+        font-size: 1.875rem;
+        padding: 0rem 0rem 1.5rem 0rem;
+    }
+    .imagenes {
+        padding: 0rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 0rem 2.5rem 0rem;
+        justify-content: center;
+        gap: .5625rem;
+    }
+    .imagenes div{
+        height: 9.625rem;
+        width: 9.625rem;
+        border-radius: 1.25rem;
+    }
+    .bancario img{
+        height: 7.5rem;
+        padding: .5625rem;
+        margin: 1rem auto;
+    }
+    .bancario div{
+        font-size: 1.125rem;
+        padding: 0rem 0rem 1.5625rem 0rem;
+        margin: 0rem 1.25rem;
+    }
+    .bancario button{
+        padding: .9375rem 2.25rem;
+        border: none;
+        background-color:#fffbf7;
+        border-radius: 6.25rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .bancario button a{
+        text-decoration: none;
+        color: #dab485;
+        font-family: "the-seasons", sans-serif;
+        font-size: 1.125rem;
+    }
+    .insta img{
+        height: 6.9375rem;
+        padding: 1.5rem;
+    }
+    .insta h2{
+        font-size: 1.5rem;
+    }
+    .insta div{
+        font-size: 1.125rem;
+        padding: 1.25rem;
+    }
+    .insta button{
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .vestimenta img{
+        height: 6.375rem;
+    }
+    .vestimenta h2{
+        font-size: 1.5rem;
+        padding: 1.5625rem;
+    }
+    .vestimenta button{
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .asistencia{
+        background-size: 261%;
+        background-position: center;
+    }
+    .asistencia h1{
+        font-size: 1.5rem;
+        padding: 1.5625rem 1.25rem 0rem 1.25rem;
+    }
+    .asistencia div{
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+    .asistencia img{
+        height: 6.9375rem;
+    }
+    .asistencia div button{
+        padding: .9375rem 2.375rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .cancion img{
+        height: 8rem;
+        padding: 1.5rem;
+    }
+    .cancion h1{
+        font-size: 1.25rem;
+        padding: 0rem 1.5625rem;
+    }
+    .cancion div{
+        font-size: 1rem;
+        padding: .875rem 1.25rem;
+    }
+    .cancion button{
+        padding: .9375rem 3.75rem;
+    }
+    .util h2{
+        font-size: 1.25rem;
+        padding: 1.5rem 1.25rem;
+    }   
+    .util div{
+        font-size: 1rem;
+        padding: 0rem 1.25rem;
+    }
+    .util button{
+        padding: .9375rem 4.25rem;
+        margin: 1.5625rem;
+    }
+    .util div button a{
+        text-decoration: none;
+        color: #dab485;
+        font-family: "the-seasons", sans-serif;
+        font-size: 1.25rem;
+    }
+    .gracias div{
+    font-size: .875rem;
+    padding: 1.5625rem;
+    }
+    .gracias img{
+        height: 4.5rem;
+        padding: 0rem 0rem .625rem 0rem;
+    }
+
+    .icon img{
+        margin: 2.1875rem 0rem 0rem 0rem;
+        padding: 1.25rem;
+        height: 9.375rem;
+    }
+    .vesti h1{
+        font-size: 1.375rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .colores-per h2{
+        font-size: 1.125rem;
+    }
+    .colores-per img{
+        margin: 1.25rem 0rem 0rem 0rem;
+        width: 80%;
+        height: 100%;
+    }
+}
