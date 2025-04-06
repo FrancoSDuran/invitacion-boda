@@ -722,7 +722,7 @@ text-align: center;
     }
 }
 
-@media (max-width:451px){
+@media (max-width:460px){
     .titulo{
         background-image: url(../assets/img/fondo.png);
         background-repeat: no-repeat;
