@@ -1,0 +1,723 @@
+
+@import url("https://use.typekit.net/zbg4lti.css");
+
+/**
+font-family: "the-seasons", sans-serif;
+font-weight: 300;
+font-style: normal;
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+body {
+    background-color: #fffbf7;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "the-seasons", sans-serif;
+}
+.mainIndex {
+    background-color: #fffbf7;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.titulo{
+    background-color: #fffbf7;
+    width: 100%;
+    height: 43.75rem;
+    background-image: url(../assets/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+.titulo img{
+    padding: 2.1875rem 0rem 0rem 0rem;
+    height: 37.5rem;
+    text-align: center;
+}
+.tiempo{
+    background-color: #a4bb8f;
+    width: 100%;
+    height: 18.75rem;
+    color: #fffbf7;
+}
+.tiempo h2{
+    padding: 3.125rem 0rem 0rem 0rem;
+    font-size: 2.1875rem;
+}
+
+.contenedor {
+    color: #fffbf7;
+    text-align: center;
+}
+.cartel {
+    width: 109px;
+    height: 109px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+.cartel>div{
+    font-size: 80px;
+    font-family: 'the-seasons', sans sans-serif;
+    animation: fade 3s;
+    margin-top: -15px;
+}
+.cartel>div>h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.h3 {
+    bottom: 0;
+    margin: 0 auto ;
+}
+.contenedor {
+    margin-top: 3%;
+}
+.contenido {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 10;
+}
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+.numeros {
+    font-family: 'the-seasons', sans-serif;
+    font-size: 60px;
+    transition: .3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+.responsivo1 {
+    display: inline-block
+}
+.responsivo2 {
+    display: inline-block
+}
+@media (max-width: 450px) {  
+    .contenedor {
+        margin-top: 15%;
+    }
+    .banner {
+        margin-bottom: 30px; 
+    }
+    .cartel {
+        height: 99px;
+        width: 99px;
+    }
+    .cartel>div{
+        font-size: 45px;
+    }
+    .cartel>div>h3 {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+}
+@keyframes fade {
+        0%   {
+        opacity: 0;
+    }
+        30%   {
+        opacity: 0;
+    }  
+        100% {
+        opacity: 1;
+    }
+}
+
+
+.fiesta-como-llegar{
+    background-color: #fffbf7;
+    width: 100%;
+    height: 100%;
+}
+.fiesta-como-llegar img{
+    height: 14.0625rem;
+    padding: 2.5rem;
+}
+.fiesta-como-llegar h2{
+    font-size: 2rem;
+}
+.fiesta-como-llegar div{
+    font-size: 1.375rem;
+    padding: 1.5625rem;
+}
+.fiesta-como-llegar button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #dab485;
+    border-radius: 6.25rem;
+    margin: 0rem 0rem 3.4375rem 0rem;
+}
+.fiesta-como-llegar button a{
+    text-decoration: none;
+    color: #fffbf7;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.nosotros{
+    background-color: #fffbf7;
+    width: 100%;
+    height: 100%;
+}
+.nosotros h1{
+    font-size: 2.875rem;
+    padding: 0rem 0rem 2.5rem 0rem;
+}
+.imagenes {
+    padding: 0rem 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem 0rem 2.5rem 0rem;
+    justify-content: center;
+    gap: 1.5625rem;
+}
+.imagenes div{
+    background-color: #000000;
+    height: 15.625rem;
+    width: 15.625rem;
+    border-radius: 1.25rem;
+}
+.imagenes div img{
+    height: 100%;
+    border-radius: 1.25rem;
+}
+.bancario{
+    background-color: #dab485;
+    width: 100%;
+    height: 100%;
+    color: #fffbf7;
+}
+.bancario img{
+    height: 12.5rem;
+    padding: 1.5625rem;
+}
+.bancario div{
+        font-size: 1.375rem;
+        padding: 0rem 0rem 1.5625rem 0rem;
+}
+.bancario button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color:#fffbf7;
+    border-radius: 6.25rem;
+    margin: 0rem 0rem 3.4375rem 0rem;
+}
+.bancario button a{
+    text-decoration: none;
+    color: #dab485;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.insta{
+    background-color: #fffbf7;
+    width: 100%;
+    height: 100%;
+}
+.insta img{
+    height: 10.9375rem;
+    padding: 2.5rem;
+}
+.insta h2{
+    font-size: 2rem;
+}
+.insta div{
+    font-size: 1.375rem;
+    padding: 1.5625rem;
+}
+.insta button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #dab485;
+    border-radius: 6.25rem;
+    margin: 0rem 0rem 3.4375rem 0rem;
+}
+.insta button a{
+    text-decoration: none;
+    color: #fffbf7;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.vestimenta{
+    background-color: #a4bb8f;
+    width: 100%;
+    height: 100%;
+    color: #fffbf7;
+}
+.vestimenta img{
+    height: 9.375rem;
+    padding: 1.5625rem 0rem 0rem 0rem;
+}
+.vestimenta h2{
+    font-size: 2rem;
+    padding: 1.5625rem;
+}
+.vestimenta button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #fffbf7;
+    border-radius: 6.25rem;
+    margin: 0rem 0rem 3.4375rem 0rem;
+}
+.vestimenta button a{
+    text-decoration: none;
+    color: #a4bb8f;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.asistencia{
+    background-image: url(../assets/img/fondo.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+.asistencia h1{
+    font-size: 2rem;
+    padding: 1.5625rem;
+}
+.asistencia div{
+    font-size: 1.375rem;
+    padding: 1.5625rem;
+    font-weight: 500;
+}
+.asistencia img{
+    height: 10.9375rem;
+}
+.asistencia div button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #dab485;
+    border-radius: 6.25rem;
+    margin: 0rem 0rem 3.4375rem 0rem;
+}
+.asistencia div button a{
+    text-decoration: none;
+    color: #fffbf7;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.cancion{
+    background-color: #fffbf7;
+    width: 100%;
+    height: 100%;
+}
+.cancion img{
+    height: 14.0625rem;
+    padding: 2.5rem;
+}
+.cancion h1{
+    font-size: 2.375rem;
+    padding: 1.5625rem;
+}
+.cancion div{
+    font-size: 1.375rem;
+    padding: 0rem 0rem 1.5625rem 0rem;
+}
+.cancion button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #dab485;
+    border-radius: 6.25rem;
+}
+.cancion div button a{
+    text-decoration: none;
+    color: #fffbf7;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.util{
+    background-color: #dab485;
+    width: 100%;
+    height: 100%;
+    color: #fffbf7;
+}
+.util h2{
+    font-size: 2.375rem;
+    padding: 2.5rem 0rem .9375rem 0rem;
+}
+.util div{
+    font-size: 1.75rem;
+    padding: 0rem 0rem 1.5625rem 0rem;
+}
+.util button{
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #fffbf7;
+    border-radius: 6.25rem;
+}
+.util div button a{
+    text-decoration: none;
+    color: #dab485;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+}
+.gracias{
+    background-color: #a4bb8f;
+    width: 100%;
+    height: 100%;
+    color: #fffbf7;
+}
+.gracias div{
+    font-size: 1.75rem;
+    padding: 1.5625rem;
+}
+.gracias img{
+    height: 10.9375rem;
+    padding: 0rem 0rem .625rem 0rem;
+}
+
+
+
+.datos-banca{
+    padding: 10.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dab485;
+}
+.banca{
+    text-align: center;
+    width: 28.125rem;
+    height: 21.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbf7;
+    border-radius: 3.4375rem;
+}
+.banca h1{
+    color: #dab485;
+    padding: 0rem 0rem 2.5rem 0rem;
+    font-size: 2.1875rem;
+}
+.banca div{
+    font-size: 1.25rem;
+}
+
+
+
+.codigo-vest{
+background-color: #fffbf7;
+text-align: center;
+}
+.icon img{
+    margin: 3.125rem 0rem 0rem 0rem;
+    padding: 1.25rem;
+    height: 12.5rem;
+}
+.vesti h1{
+    font-size: 2rem;
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+.colores-per img{
+    margin: 1.5rem 0rem 0rem 0rem;
+    height: 9.375rem;
+}
+
+
+.hoteleria{
+    background-color: #dab485;
+}
+.hoteleria main div h2{
+    margin: 1.5625rem 0rem 0rem 0rem;
+    font-size: 1.75rem;
+    color: #fffbf7;
+    text-align: center;
+}
+.cardContenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2.5rem;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.cardContenedor article{
+    background-color: #fffbf7;
+    width: 37.5rem;
+    height: 32.8125rem;
+    border-radius: 1.25rem;
+}
+.card{
+    text-align: center;
+}
+.card div{
+    width: 100%;
+    height: 17.1875rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+
+}
+.card div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.25rem;
+}
+.card h5{
+    font-size: 1.75rem;
+    text-align: center;
+}
+.card div p{
+    font-size: 1rem;
+    margin: 1rem 0rem 4rem 0rem;
+    text-align: center;
+}
+.card div a{
+    text-decoration: none;
+    color: #fffbf7;
+    font-family: "the-seasons", sans-serif;
+    font-size: 1.25rem;
+    padding: .9375rem 6.25rem;
+    border: none;
+    background-color: #dab485;
+    border-radius: 6.25rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+
+@media (max-width: 1440px){
+    .titulo{
+        background-image: url(../assets/img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        margin: 0;
+    }
+}
+
+@media (max-width:768px){
+    .titulo{
+        background-image: url(../assets/img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 210%;
+        background-position: center;
+        margin: 0;
+        height: 45.3125rem;
+    }
+    .cartel>div{
+        font-size: 65px;
+    }
+    .cartel>div>h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .imagenes {
+        padding: 0rem 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 0rem 2.5rem 0rem;
+        justify-content: center;
+        gap: 1.5625rem;
+    }
+    .asistencia{
+        background-image: url(../assets/img/fondo.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        margin: 0;
+    }
+}
+
+@media (max-width:376px){
+    .titulo{
+        background-image: url(../assets/img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 389.4%;
+        background-position-x: center;
+        background-position-y: center;
+        margin: 0;
+        height: 41.7rem;
+    }
+    .titulo img{
+        padding: 0rem 0rem 0rem 0rem;
+        height: 22rem;
+        text-align: center;
+        margin: 10rem auto;
+    }
+    .tiempo{
+        background-color: #a4bb8f;
+        width: 100%;
+        height: 10.75rem;
+        color: #fffbf7;
+    }
+    .tiempo h2{
+        padding: 1.125rem 0rem 0rem 0rem;
+        font-size: 1.5rem;
+    }
+    .cartel>div{
+        font-size: 45px;
+    }
+    .cartel>div>h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .cartel {
+        height: 60px;
+        width: 60px;
+    }
+    .contenedor {
+        margin-top: 5%;
+    }
+    .fiesta-como-llegar img{
+        height: 10.9375rem;
+        padding: 1.5rem;
+    }
+    .nosotros h1{
+        font-size: 1.875rem;
+        padding: 0rem 0rem 1.5rem 0rem;
+    }
+    .imagenes {
+        padding: 0rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 0rem 2.5rem 0rem;
+        justify-content: center;
+        gap: .5625rem;
+    }
+    .imagenes div{
+        height: 9.625rem;
+        width: 9.625rem;
+        border-radius: 1.25rem;
+    }
+    .bancario img{
+        height: 7.5rem;
+        padding: .5625rem;
+        margin: 1rem auto;
+    }
+    .bancario div{
+        font-size: 1.125rem;
+        padding: 0rem 0rem 1.5625rem 0rem;
+        margin: 0rem 1.25rem;
+    }
+    .bancario button{
+        padding: .9375rem 2.25rem;
+        border: none;
+        background-color:#fffbf7;
+        border-radius: 6.25rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .bancario button a{
+        text-decoration: none;
+        color: #dab485;
+        font-family: "the-seasons", sans-serif;
+        font-size: 1.125rem;
+    }
+    .insta img{
+        height: 6.9375rem;
+        padding: 1.5rem;
+    }
+    .insta h2{
+        font-size: 1.5rem;
+    }
+    .insta div{
+        font-size: 1.125rem;
+        padding: 1.25rem;
+    }
+    .insta button{
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .vestimenta img{
+        height: 6.375rem;
+    }
+    .vestimenta h2{
+        font-size: 1.5rem;
+        padding: 1.5625rem;
+    }
+    .vestimenta button{
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .asistencia{
+        background-size: 261%;
+        background-position: center;
+    }
+    .asistencia h1{
+        font-size: 1.5rem;
+        padding: 1.5625rem 1.25rem 0rem 1.25rem;
+    }
+    .asistencia div{
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+    .asistencia img{
+        height: 6.9375rem;
+    }
+    .asistencia div button{
+        padding: .9375rem 2.375rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .cancion img{
+        height: 8rem;
+        padding: 1.5rem;
+    }
+    .cancion h1{
+        font-size: 1.25rem;
+        padding: 0rem 1.5625rem;
+    }
+    .cancion div{
+        font-size: 1rem;
+        padding: .875rem 1.25rem;
+    }
+    .cancion button{
+        padding: .9375rem 3.75rem;
+    }
+    .util h2{
+        font-size: 1.25rem;
+        padding: 1.5rem 1.25rem;
+    }   
+    .util div{
+        font-size: 1rem;
+        padding: 0rem 1.25rem;
+    }
+    .util button{
+        padding: .9375rem 4.25rem;
+        margin: 1.5625rem;
+    }
+    .util div button a{
+        text-decoration: none;
+        color: #dab485;
+        font-family: "the-seasons", sans-serif;
+        font-size: 1.25rem;
+    }
+    .gracias div{
+    font-size: .875rem;
+    padding: 1.5625rem;
+    }
+    .gracias img{
+        height: 4.5rem;
+        padding: 0rem 0rem .625rem 0rem;
+    }
+
+    .icon img{
+        margin: 2.1875rem 0rem 0rem 0rem;
+        padding: 1.25rem;
+        height: 9.375rem;
+    }
+    .vesti h1{
+        font-size: 1.375rem;
+        margin: 0rem 0rem 2.1875rem 0rem;
+    }
+    .colores-per h2{
+        font-size: 1.125rem;
+    }
+    .colores-per img{
+        margin: 1.25rem 0rem 0rem 0rem;
+        width: 80%;
+        height: 100%;
+    }
+}
