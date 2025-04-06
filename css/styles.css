@@ -726,11 +726,11 @@ text-align: center;
     .titulo{
         background-image: url(../assets/img/fondo.png);
         background-repeat: no-repeat;
-        background-size: 346.4%;
+        background-size: 350.4%;
         background-position-x: center;
         background-position-y: center;
         margin: 0;
-        height: 44.2rem;
+        height: 43.2rem;
     }
     .titulo img{
         padding: 0rem 0rem 0rem 0rem;
