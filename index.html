@@ -11,7 +11,31 @@
     <main class="mainIndex">
         <section class="titulo">
             <img src="./assets/img/c-y-f.png" alt="">
-            <audio autoplay src="./assets/audio/felicita.mp3"></audio>
+            <div>
+                <button class="play-button" id="playBtn"></button>
+                <audio id="audio" src="./assets/audio/felicita.mp3"></audio>
+                <script>
+                const playBtn = document.getElementById('playBtn');
+                const audio = document.getElementById('audio');
+                let isPlaying = false;
+        
+                playBtn.addEventListener('click', () => {
+                    if (isPlaying) {
+                    audio.pause();
+                    playBtn.classList.remove('pause');
+                    } else {
+                    audio.play();
+                    playBtn.classList.add('pause');
+                    }
+                    isPlaying = !isPlaying;
+                });
+            
+                audio.addEventListener('ended', () => {
+                    playBtn.classList.remove('pause');
+                    isPlaying = false;
+                });
+                </script>
+                </div>
         </section>
         <section class="tiempo">
             <h2>

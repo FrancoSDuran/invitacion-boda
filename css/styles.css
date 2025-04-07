@@ -736,7 +736,7 @@ text-align: center;
         padding: 0rem 0rem 0rem 0rem;
         height: 22.5rem;
         text-align: center;
-        margin: 10rem auto;
+        margin: 10rem auto 4rem;
     }
     .tiempo{
         background-color: #a4bb8f;
@@ -925,4 +925,38 @@ text-align: center;
     .banca div{
         font-size: 1.125rem;
     }
+}
+
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #a4bb8f;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.play-button::before {
+    content: '';
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid white;
+    transition: all 0.3s ease;
+}
+.play-button.pause::before {
+    content: '';
+    left: 30%;
+    top: 25%;
+    width: 20px;
+    height: 30px;
+    background: linear-gradient(to right, white 40%, transparent 40%, transparent 60%, white 60%);
+    border: none;
 }
