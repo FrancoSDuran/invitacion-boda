@@ -908,4 +908,21 @@ text-align: center;
         width: 80%;
         height: 100%;
     }
+
+    .datos-banca{
+        padding: 17.9375rem 4rem;
+    }
+    .banca{
+        text-align: center;
+        width: 28.125rem;
+        height: 16.875rem;
+    }
+    .banca h1{
+        color: #dab485;
+        padding: 0rem 0rem 2.5rem 0rem;
+        font-size: 1.375rem;
+    }
+    .banca div{
+        font-size: 1.125rem;
+    }
 }
