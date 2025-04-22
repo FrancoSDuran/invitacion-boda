@@ -396,8 +396,8 @@ li span {
 }
 .banca{
     text-align: center;
-    width: 28.125rem;
-    height: 21.875rem;
+    width: 34.375rem;
+    height: 28.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,11 +406,13 @@ li span {
 }
 .banca h1{
     color: #dab485;
-    padding: 0rem 0rem 2.5rem 0rem;
+    padding: 0rem 0rem 1.25rem 0rem;
     font-size: 2.1875rem;
 }
 .banca div{
     font-size: 1.25rem;
+    padding: .625rem;
+    line-height: 1.875rem;
 }
 
 
@@ -535,6 +537,19 @@ text-align: center;
         background-repeat: no-repeat;
         background-size: 150%;
         margin: 0;
+    }
+
+    .datos-banca{
+        padding: 4.9375rem 4rem;
+    }
+    .banca{
+        text-align: center;
+        width: 28.125rem;
+        height: 28.875rem;
+    }
+    .banca h1{
+        color: #dab485;
+        padding: 0rem 0rem 1.25rem 0rem;
     }
 }
 
@@ -914,16 +929,16 @@ text-align: center;
     }
 
     .datos-banca{
-        padding: 17.9375rem 4rem;
+        padding: 4.9375rem 4rem;
     }
     .banca{
         text-align: center;
         width: 28.125rem;
-        height: 16.875rem;
+        height: 28.875rem;
     }
     .banca h1{
         color: #dab485;
-        padding: 0rem 0rem 2.5rem 0rem;
+        padding: 0rem 0rem 1.25rem 0rem;
         font-size: 1.375rem;
     }
     .banca div{
